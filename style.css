@@ -1,0 +1,207 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	text-decoration: none;
+	color:#444;
+	font-family: 'roboto', sans-serif;
+}
+
+body {
+padding-top: 5px;
+}
+
+.container {
+	padding: 0px;
+	margin: 0px;
+}
+.logo {
+
+	font-family: cursive;
+	font-size: 20px;
+	display: inline-block;
+	
+}
+.nav-tab {
+	display: inline-block;
+	padding: 10px 30px 10px 30px;
+	letter-spacing: 3px;
+	transition: transform 0.1s;
+	font-size: 16px;
+
+
+}
+
+p {
+	margin:15px;
+	letter-spacing: 1px;
+}
+
+.nav-tab:hover {
+	color: white;
+	background: rgba(255,201,181,1);
+	text-align: center;
+
+	transform: scale(1.1) rotate(0deg);
+}
+/*
+80,188,241
+101,191,189
+187,221,214
+253,181,187
+249,227,218
+*/
+.header {
+	padding: 20px 20px 0 20px;
+	clear:left;
+	font-size: 50px;
+	background: rgba(249,227,218,1);
+
+
+}
+
+a.header-logo {
+	font-family: 'Montserrat';
+}
+
+a.header-logo:hover {
+color: white;
+}
+.subheader {
+	padding: 0 20px 30px 20px;
+	font-size: 20px;
+	font-family: 'Montserrat';
+	background: rgba(249,227,218,1);
+
+
+}
+
+.intro {
+	background: rgba(101,191,189,0.25);
+
+
+}
+
+.intro-text {
+	padding: 80px;
+}
+
+.down-button {
+	height:40px;
+	width:40px;
+	border-radius: 50px;
+	font-size: 30px;
+	background-color: white;
+	border:solid black;
+	margin-top:50px;
+	transition: transform 0.5s;
+	margin-bottom: 20px;
+}
+
+.down-button:hover {
+	transform: scale(1.2,1.2);
+	opacity: 0.5;
+}
+
+.down-button:active {
+	opacity: 0.25;
+}
+
+.down-button-caption {
+	font-size: 20px;
+	margin-left: 15px;
+}
+/*
+80,188,241
+101,191,189
+187,221,214
+253,181,187
+249,227,218
+*/
+.picture {
+
+	background: rgba(249,227,218,1);
+
+	padding: 10px;
+}
+
+#pic-1 {
+	margin-top: 10px;
+	border:black solid;
+	box-shadow: 0px 0px 10px;
+	transition: opacity 1s ease:0.25s;
+
+}
+.button {
+	border: none;
+	width:15%;
+	background: rgba(253,181,187,0.75);
+	/*letter-spacing: 3px;*/
+	/*font-weight: bold;*/
+	font-size: 14px;
+	padding: 10px 0 10px 0;
+	margin: 20px 10px 20px 10px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px;
+	font-family: 'Times New Roman';
+
+}
+
+.button:hover {
+	background: rgba(253,181,187,0.5);
+
+
+}
+
+.button:active {
+	background: rgba(253,181,187,0.1);
+
+}
+
+
+
+.caption {
+	padding: 10px;
+	color: #444;
+	transition: opacity 0.5s ease 0s;
+}
+
+.caption-1 {
+	font-size: 20px;
+	color:rgb(150,5,50);
+	font-family: 'Georgia';
+
+}
+
+.caption-2 {
+	padding: 5px 5px 20px 5px;
+	font-family: 'Georgia';
+
+}
+
+.caption-3 {
+	font-family: 'Times New Roman';
+}
+
+.sales {
+	display: grid;
+	grid: 200px;
+
+	position: relative;
+	width:50%;
+	text-align: left;
+	color:white;
+	background:white;
+	padding: 50px;
+	margin:0;
+}
+
+.footer {
+	padding:10px;
+	width:100%;
+	clear: both;
+	font-weight: bold;
+	background: grey;
+	color:white;
+	font-size: 12px;
+}
