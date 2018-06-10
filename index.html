@@ -1,20 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="referrer" content="origin">
+	<!-- <meta name="referrer" content="origin"> -->
 	<title>Mademoiselle Cafe</title>
 	<link rel = 'stylesheet' href = 'style.css'>
 	<link rel = 'stylesheet' href= 'https://use.fontawesome.com/releases/v5.0.13/css/all.css' integrity = 'sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp' crossorigin = 'anonymous'>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
 </head>
  <body> <!-- ============ START BODY ============ -->
-<form action="https://formspree.io/justbrandon16@gmail.com"
-      method="POST">
-    <input type="text" name="name">
-    <input type="email" name="_replyto">
-    <input type="submit" value="Send">
-	<input type="hidden" name="_next" value="https://justbrandon16.github.io/momscafe/" />
-</form>
+
 
  	<div class ='container'>
 		<div class = 'logo'>
@@ -31,8 +25,8 @@
 
 		<div class = 'intro'>
 			<div class = 'intro-text'>
-				<p>test100% ho1me-made</p>
-				<p>No preservataiave and top quality ingredients</p>
+				<p>100% home-made</p>
+				<p>No preservative and top quality ingredients</p>
 				<p>Made to order</p>
 				<p>Satisfaction guaranteed or full refund. No questions asked!</p>
 
@@ -45,19 +39,28 @@
 			<button onclick = 'switch3()' class = 'button'>CHOCOLATE</button>
 			<button onclick = 'switch4()' class = 'button'>RED VELVET</button>
 			<div class = 'caption'>
-				<div class = 'caption-1'>Carrot Cake</div>
-				<div class = 'caption-2'>Moist and flavorfull cake</div>
-				<div class = 'caption-3'>Prices from:<br> &pound40</div>
+				From &pound2.00 per serving<br><br>
+				Moist and flavorfull cake<br><br>
+				Carrot taste so juicy<br><br>
+				You cannot go wrong with this cake.;
+			</div>
 				<div class = 'sales'>
-					<p><i class="fas fa-phone" style='transform: scaleX(-1);'>
-					</i> Talk to our friendly in-house baker to order now:<br>0756 497 0305</p>
-					<p>Send us an email including your:</p>
-						<p>1. name</p>
-						<p>2. contact details</p>
-						<p>3. your order</p>
-					<p>and any other enquiries and we will get back to you within 24 hours</p>
+
+					<div class = 'sales-header'>ORDER NOW</div>
+					<p>To make an order now, fill in the form below with</p>
+					<p> the <b>cake you want</b> and <b>the number of servings</b> </p>
+					<p>and we will get back to you within 24-48 hours time.</p>
+										<form method="POST" action="https://formspree.io/justbrandon16@gmail.com">
+ 					 					<textarea name="message" placeholder="Your name, and order..."></textarea><br>
+ 					 					<input type="email" name="email" placeholder="Your email">
+  
+  					<button type="submit">Send</button>
+						<p>We would love to have a chat with you:<br><br><i class="fas fa-phone" style='transform: scaleX(-1);'></i> 0756 497 0305</p>
 
 
+
+
+					</form>
 				</div>
 			</div>
 		</div>
